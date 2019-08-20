@@ -6,7 +6,7 @@ public class TurtleDemo
     {
         World ocean = new World();
         Turtle crush = new Turtle(ocean);
-        crush.setPenColor(Color.RED);
+        crush.setPenColor(Color.ORANGE);
         crush.penDown();
         crush.forward(50);
     }
