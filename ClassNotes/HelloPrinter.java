@@ -32,9 +32,9 @@ public class HelloPrinter
          * When invoking a method, arguments are passed in parentheses (e.g., "Hello, World!").
          */
         System.out.println("Hello, World!");    // comment at the end of a line
-        
+
         // this is a single-line comment (like # python)
-        
+
         /*
          * Identifiers are any combination of:
          *      letters
@@ -45,11 +45,29 @@ public class HelloPrinter
          *  These are various identifiers:
          */
         int y, x2, x_y, x$;
+
+        // This is not a valid identifier:
+        //int 2y;
+
+        /*
+         * Identifiers are case sensitive (case matters).
+         * 
+         * These are three different identifiers:
+         */
+        String box, BOX, bOx;
+
+        /*
+         * By convention, constants are all uppercase. Use an underscore to separate words.
+         */
+        int SPEED_OF_LIGHT = 300000000; // m/s
+
+        /*
+         * By convention, most other identifiers start with a lowercase letter.
+         *      Subsequent words start with an uppercase letter. (CamalCase)
+         */
+        String firstName;
     }
 }
-
-
-
 
 
 
